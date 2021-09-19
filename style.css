@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn{
+    display: block;
+    padding: 10px 15px;
+    border-radius: 5px;   
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+header, .left{
+    background: #e2e1e1;
+}
+
+nav{
+    background: #000;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+}
+nav button{
+    background: green;
+    color: #fff;
+    display: block;
+    padding: 5px 10px;
+    border-radius: 5px;   
+}
+
+.banner{
+    padding: 50px 10%;
+    font-size: 1.5rem;
+}
+.banner h1{
+    font-size: 3.5rem;
+    padding-bottom: 30px;
+
+}
+.banner button{
+    background: #3636ee;
+    color: #fff;    
+}
+.main{
+    padding: 50px 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    width: 75%;
+}
+.left{
+    width: 25%;
+}
+.js-confus{
+    padding: 10px 0;
+}
+.tutorial-contianer{
+    padding: 20px 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+.title{
+    color: #6161ec;
+    padding: 15px 0;
+}
+.left{
+    padding: 50px 30px;
+}
+.left h3{
+    margin: 20px 0;
+}
+.left ul{
+    padding: 0 30px;
+}
+footer{
+    height: 50px;
+    text-align: center;
+    background: #e2e1e1;
+    padding-top: 20px;
+    border-top: 1px solid #bebcbc;
+}
